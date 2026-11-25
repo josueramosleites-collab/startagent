@@ -1,0 +1,9 @@
+_*.jpg
+build.py
+template.html
+texts.json
+v2/
+caps3/
+vsl/
+clips*.py
+*.tgz
