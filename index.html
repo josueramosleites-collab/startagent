@@ -14,6 +14,8 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradi
 a{color:inherit}.wrap{max-width:1160px;margin:0 auto;padding-inline:20px}
 header{position:sticky;top:0;z-index:20;background:rgba(11,7,32,.78);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+header .site{margin-left:auto}
+@media (max-width:640px){header .site{display:none}.hero-cta .site,.final .site{margin:10px 0 0 0!important}}
 .brand{font-weight:900;font-size:20px;text-decoration:none}.brand b{color:var(--green)}
 nav.top{display:flex;gap:22px;font-size:14px;font-weight:700;color:var(--mut)}nav.top a{text-decoration:none}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:900;text-decoration:none;border-radius:999px;padding:18px 34px;font-size:18px;background:linear-gradient(180deg,#4ade80,var(--green2));color:#04170a;box-shadow:0 14px 40px rgba(34,197,94,.45),0 0 0 4px rgba(255,255,255,.1);transition:transform .15s;border:0;cursor:pointer}
@@ -132,7 +134,7 @@ window.__saEU=eu;if(!eu||c==='yes')window.__loadPixel();})();
 <header><div class="wrap">
  <a class="brand" href="#">Start<b>Agent</b></a>
  <nav class="top"><a href="#como">Como funciona</a><a href="#ganhar">Ganhe com o seu agente</a><a href="#planos">Planos</a></nav>
- <a class="btn sm cta" href="https://oddsfy.ai/market?tab=planos">Começar agora</a>
+ <a class="btn sm ghost site" href="https://oddsfy.ai/" target="_blank" rel="noopener" style="margin-right:10px">Conhecer o Oddsfy</a><a class="btn sm cta" href="https://oddsfy.ai/market?tab=planos">Começar agora</a>
 </div></header>
 <main>
 <div class="wrap hero">
@@ -140,7 +142,7 @@ window.__saEU=eu;if(!eu||c==='yes')window.__loadPixel();})();
   <span class="eyebrow">Agentes de machine learning · do Oddsfy</span>
   <h1>Crie o seu <em>agente de IA</em> de machine learning e venda ele pro mundo inteiro</h1>
   <p class="lead">Você monta a esteira, nós treinamos com o mesmo método dos nossos agentes. Ele opera 24 horas por dia, tudo fica registrado na vitrine e, se der resultado, você vende pra quem quiser.</p>
-  <div class="hero-cta"><a class="btn cta" href="https://oddsfy.ai/market?tab=planos">Começar agora →</a><small>Assista ao vídeo ao lado ▶</small></div>
+  <div class="hero-cta"><a class="btn cta" href="https://oddsfy.ai/market?tab=planos">Começar agora →</a><a class="btn ghost site" href="https://oddsfy.ai/" target="_blank" rel="noopener">Conhecer o Oddsfy ↗</a><small>Assista ao vídeo ao lado ▶</small></div>
   <div class="stores"><span> App Store</span><span>▶ Google Play</span><span>AltStore</span><span>🌐 Web em 3 idiomas</span></div>
  </div>
  <div class="vsl"><video id="vsl" controls playsinline preload="metadata" poster="media/vsl_pt_poster.jpg"><source src="media/vsl_pt.mp4" type="video/mp4"></video></div>
@@ -210,7 +212,7 @@ window.__saEU=eu;if(!eu||c==='yes')window.__loadPixel();})();
 
 <section class="final"><div class="wrap">
  <h2>O seu agente pode começar a trabalhar hoje</h2><p class="sub">Crie a sua conta, escolha o plano e monte o seu primeiro agente em poucos minutos.</p>
- <a class="btn cta" href="https://oddsfy.ai/market?tab=planos">Começar agora →</a>
+ <a class="btn cta" href="https://oddsfy.ai/market?tab=planos">Começar agora →</a> <a class="btn ghost site" href="https://oddsfy.ai/" target="_blank" rel="noopener" style="margin-left:10px">Conhecer o Oddsfy ↗</a>
 </div></section>
 </main>
 <footer><div class="wrap"><span>© 2026 Oddsfy · EYESCOUDATA LTDA</span><span><a href="https://oddsfy.ai/legal">Termos e privacidade</a></span></div></footer>
